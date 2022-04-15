@@ -1,0 +1,23 @@
+.table {
+  width: 600px;
+  border-collapse: collapse;
+  outline: 1px solid black;
+  /* display: table-header-group; */
+}
+
+.table th {
+  background-color: rgb(186, 193, 201);
+}
+
+.table tbody {
+  text-align: center;
+  justify-content: center;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: rgb(246, 239, 229);
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: rgb(230, 209, 185);
+}
